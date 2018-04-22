@@ -11,9 +11,6 @@ from EUNN import EUNNCell
 from GORU import GORUCell
 from Orthogonal_LSTM import Orthogonal_LSTM_Cell
 
-from tensorflow.python.ops.rnn_cell_impl import RNNCell
-from tensorflow.python.ops.rnn_cell_impl import BasicLSTMCell
-
 
 def paren_data(T, n_data):
     MAX_COUNT = 10
